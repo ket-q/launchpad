@@ -5,5 +5,5 @@ Write-Host "win_update installer... :)"
 Write-Host "Install available Windows updates..."
 Enable-UAC
 Enable-MicrosoftUpdate
-Install-WindowsUpdate
+Install-WindowsUpdate -acceptEula
 
