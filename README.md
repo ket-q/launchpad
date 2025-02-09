@@ -3,7 +3,7 @@ Launchpad is a test-repository for launching apps through Boxstarter. Before run
 ## Installers
 |Click link to run  |Description  |
 |---------|---------|
-|<a href='TBD/hello.ps1'>hello</a>     | Empty installer that only displays a hello message.|
+|<a href='https://raw.githubusercontent.com/ket-q/launchpad/refs/heads/main/hello.ps1'>hello</a>     | Empty installer that only displays a hello message.|
 
 
 ## Known issues
