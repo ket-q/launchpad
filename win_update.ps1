@@ -1,11 +1,9 @@
 Write-Host "win_update installer... :)"
 
-Disable-UAC
 
 # Install all available win updates
 Write-Host "Install available Windows updates..."
+Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
 
-# Re-enable UAC (security)
-Enable-UAC
