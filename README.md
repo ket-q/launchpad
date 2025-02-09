@@ -4,6 +4,7 @@ Launchpad is a test-repository for launching apps through Boxstarter. Before run
 |Click link to run  |Description  |
 |---------|---------|
 |<a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/ket-q/launchpad/refs/heads/main/hello.ps1'>hello</a>     | Empty installer that only displays a hello message.|
+|<a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/ket-q/launchpad/refs/heads/main/win_update.ps1'>win_updatehello</a>     | Empty installer that calls Windows update only.|
 
 
 ## Known issues
