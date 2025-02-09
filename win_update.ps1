@@ -4,6 +4,7 @@ Disable-UAC
 
 # Install all available win updates
 Write-Host "Install available Windows updates..."
-Install-WindowsUpdate -AcceptEula -GetUpdatesFromMS
+Install-WindowsUpdate -acceptEula -GetUpdatesFromMS
 
+# Re-enable UAC (security)
 Enable-UAC
