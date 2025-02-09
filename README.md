@@ -3,7 +3,7 @@ Launchpad is a test-repository for launching apps through Boxstarter. Before run
 ## Installers
 |Click link to run  |Description  |
 |---------|---------|
-|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/Microsoft/windows-dev-box-setup-scripts/master/dev_app.ps1'>void</a>     | Empty installer that only displays a hello message.|
+|<a href='TBD/hello.ps1'>hello</a>     | Empty installer that only displays a hello message.|
 
 
 ## Known issues
