@@ -8,10 +8,12 @@ choco install -y vscode.install --params "/NoDesktopIcon"
 Write-Host "Installing VSCode Python extension"
 choco install -y vscode-python
 
-Write-Host "Installing VSCode Jupyter extension"
-choco install -y vscode-jupyter
-
 Write-Host "Installing Microsoft Windows Terminal"
 choco install -y microsoft-windows-terminal
+
+refreshenv
+
+Write-Host "Installing VSCode Jupyter extension"
+code --install-extension ms-toolsai.jupyter
 
 Enable-UAC
