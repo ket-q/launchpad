@@ -1,4 +1,5 @@
-qiskit[visualization]>=1.3.2 # this will install qiskit and visualization required packages
+qiskit[visualization]==1.3.2 # this will install qiskit and visualization required packages
+symengine==0.13.0 # v. 0.14 not working due to DLL load bug
 qiskit-ibm-runtime>=0.35.0
 qiskit-aer
 qiskit-ibm-transpiler
