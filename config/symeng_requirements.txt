@@ -1,1 +1,1 @@
-symengine
+symengine==0.13.0
